@@ -1,0 +1,28 @@
+{
+    "cv0SQ": [
+        "endgame",
+        "advancedPawn",
+        "crushing",
+        "rookEndgame",
+        "long",
+        "defensiveMove"
+    ],
+    "1MbZR": [
+        "middlegame",
+        "short",
+        "crushing",
+        "discoveredAttack"
+    ],
+    "7XAG4": [
+        "mateIn2",
+        "middlegame",
+        "short",
+        "kingsideAttack",
+        "pin"
+    ],
+    "1TmlJ": [
+        "middlegame",
+        "crushing",
+        "short"
+    ]
+}
