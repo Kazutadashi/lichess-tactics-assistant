@@ -27,11 +27,33 @@ def count_themes(filepath: str) -> dict:
     
     # Counts how many times each theme shows up
     occurrences = {item: all_themes.count(item) for item in all_themes}
-    
+
     # Sorts a dictionary to show the most to least occurrences of themes
     ranked_occurrences = {k: v for k,v in sorted(occurrences.items(), key=lambda item:item[1], reverse=True)}
     return ranked_occurrences 
 
 
+def restrict_motifs(tactical_themes: dict) -> dict:
+    """Removes all themes that are not basic tactical motifs
+    """
+    print(tactical_themes, '\n')
+    themes_to_delete = []
+    for theme in tactical_themes:
+        print(theme)
+        if theme not in BASIC_MOTIFS and theme not in ADVANCED_MOTIFS:
+            #print(f'The theme: "{theme}" is not a basic or advanced motif. Deleting theme.')
+            themes_to_delete.append(theme)
+        else:
+            pass
+            #print(f'The theme: "{theme}" is a basic or advanced motif. Saving theme.')
+        
+    for theme in themes_to_delete:
+        del tactical_themes[theme]
+    #print(tactical_themes)
+
+
+
+
 if __name__ == "__main__":
-    print(count_themes('lichess-tactics-assistant\data\puzzles.json'))
+    themes = count_themes('lichess-tactics-assistant\data\puzzles.json')
+    restricted_themes = restrict_motifs(themes)
