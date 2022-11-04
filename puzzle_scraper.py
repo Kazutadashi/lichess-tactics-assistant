@@ -1,7 +1,20 @@
 import urllib.request
 import json
 import time
-
+def load_ids(filepath: str) -> list:
+    """Loads a text file containing links to lichess puzzles and returns a list of puzzle IDs.
+    
+    Parameters
+    ----------
+    filepath : str
+        The filepath for where the links are stored
+    """
+    ids = []
+    
+    with open(filepath) as f:
+        for line in f:
+            ids.append(line[-6:-1])
+    return ids
 
 def create_thematic_dict(ids: list) -> dict:
     """Creates a dictionary with the ID as the key, and the themes as the values.
@@ -48,10 +61,11 @@ def add_puzzles(filepath: str, new_puzzles: dict) -> None:
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(existing_puzzles, f, indent=4)
 
-def main():
-    id_list = ['cv0SQ', '1MbZR', '7XAG4', '1TmlJ', '9B1zX']
-    puzzles = create_thematic_dict(id_list)
-    add_puzzles('lichess-tactics-assistant\puzzles.json', puzzles)
 
-main()
+if __name__ == "__main__":
+
+    id_list = load_ids('lichess-tactics-assistant\puzzle_links.txt')
+    puzzles = create_thematic_dict(id_list)
+
+    add_puzzles('lichess-tactics-assistant\puzzles.json', puzzles)
 

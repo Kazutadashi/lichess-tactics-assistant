@@ -30,5 +30,130 @@
         "middlegame",
         "short",
         "crushing"
+    ],
+    "kjfY0": [
+        "deflection",
+        "endgame",
+        "advantage",
+        "fork",
+        "long"
+    ],
+    "apHo4": [
+        "middlegame",
+        "attraction",
+        "long",
+        "mateIn3",
+        "sacrifice",
+        "kingsideAttack"
+    ],
+    "zSn6n": [
+        "mateIn2",
+        "advancedPawn",
+        "master",
+        "short",
+        "attraction",
+        "opening",
+        "kingsideAttack",
+        "discoveredAttack"
+    ],
+    "rjuKR": [
+        "middlegame",
+        "advantage",
+        "short"
+    ],
+    "Ndq4P": [
+        "endgame",
+        "long",
+        "mateIn3",
+        "sacrifice"
+    ],
+    "8VGeT": [
+        "mateIn2",
+        "middlegame",
+        "short",
+        "kingsideAttack"
+    ],
+    "nBPOg": [
+        "short",
+        "advantage",
+        "opening",
+        "discoveredAttack"
+    ],
+    "zQwME": [
+        "middlegame",
+        "long",
+        "advantage"
+    ],
+    "9cvme": [
+        "short",
+        "crushing",
+        "fork",
+        "master",
+        "middlegame"
+    ],
+    "ZD8z7": [
+        "deflection",
+        "middlegame",
+        "short",
+        "crushing",
+        "kingsideAttack",
+        "pin"
+    ],
+    "CwNUn": [
+        "mateIn2",
+        "middlegame",
+        "short"
+    ],
+    "JMDq6": [
+        "deflection",
+        "middlegame",
+        "long",
+        "mateIn3"
+    ],
+    "cxhfh": [
+        "mateIn2",
+        "middlegame",
+        "short",
+        "xRayAttack",
+        "backRankMate"
+    ],
+    "I8tZV": [
+        "endgame",
+        "long",
+        "mateIn3"
+    ],
+    "VQdq2": [
+        "middlegame",
+        "short",
+        "advantage",
+        "fork",
+        "hangingPiece"
+    ],
+    "0a4R8": [
+        "endgame",
+        "advantage",
+        "defensiveMove",
+        "intermezzo",
+        "long"
+    ],
+    "n5dxN": [
+        "endgame",
+        "crushing",
+        "attraction",
+        "fork",
+        "long",
+        "sacrifice"
+    ],
+    "PSAMW": [
+        "middlegame",
+        "crushing",
+        "long",
+        "kingsideAttack"
+    ],
+    "VcOdF": [
+        "middlegame",
+        "short",
+        "advantage",
+        "fork"
     ]
 }
