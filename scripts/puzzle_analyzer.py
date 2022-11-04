@@ -27,12 +27,11 @@ def count_themes(filepath: str) -> dict:
     
     # Counts how many times each theme shows up
     occurrences = {item: all_themes.count(item) for item in all_themes}
-    print(occurrences)
-
+    
     # Sorts a dictionary to show the most to least occurrences of themes
     ranked_occurrences = {k: v for k,v in sorted(occurrences.items(), key=lambda item:item[1], reverse=True)}
-    print(ranked_occurrences) 
+    return ranked_occurrences 
 
 
 if __name__ == "__main__":
-    count_themes('lichess-tactics-assistant\data\puzzles.json')
+    print(count_themes('lichess-tactics-assistant\data\puzzles.json'))
