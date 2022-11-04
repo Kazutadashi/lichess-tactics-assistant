@@ -1,0 +1,1 @@
+# TODO add functions to help player train more effectively

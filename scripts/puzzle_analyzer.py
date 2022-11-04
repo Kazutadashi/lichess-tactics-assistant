@@ -36,10 +36,8 @@ def count_themes(filepath: str) -> dict:
 def restrict_motifs(tactical_themes: dict) -> dict:
     """Removes all themes that are not basic tactical motifs
     """
-    print(tactical_themes, '\n')
     themes_to_delete = []
     for theme in tactical_themes:
-        print(theme)
         if theme not in BASIC_MOTIFS and theme not in ADVANCED_MOTIFS:
             #print(f'The theme: "{theme}" is not a basic or advanced motif. Deleting theme.')
             themes_to_delete.append(theme)
@@ -50,10 +48,15 @@ def restrict_motifs(tactical_themes: dict) -> dict:
     for theme in themes_to_delete:
         del tactical_themes[theme]
     #print(tactical_themes)
-
+    return tactical_themes
 
 
 
 if __name__ == "__main__":
+    
     themes = count_themes('lichess-tactics-assistant\data\puzzles.json')
-    restricted_themes = restrict_motifs(themes)
+    
+    restricted_themes = themes.copy()
+    restricted_themes = restrict_motifs(restricted_themes)
+
+    print(themes, '\n', restricted_themes)
