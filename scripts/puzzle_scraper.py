@@ -3,7 +3,7 @@ import json
 import time
 def load_ids(filepath: str) -> list:
     """Loads a text file containing links to lichess puzzles and returns a list of puzzle IDs.
-    
+
     Parameters
     ----------
     filepath : str
@@ -64,8 +64,8 @@ def add_puzzles(filepath: str, new_puzzles: dict) -> None:
 
 if __name__ == "__main__":
 
-    id_list = load_ids('lichess-tactics-assistant\puzzle_links.txt')
+    id_list = load_ids('lichess-tactics-assistant\data\puzzle_links.txt')
     puzzles = create_thematic_dict(id_list)
 
-    add_puzzles('lichess-tactics-assistant\puzzles.json', puzzles)
+    add_puzzles('lichess-tactics-assistant\data\puzzles.json', puzzles)
 
