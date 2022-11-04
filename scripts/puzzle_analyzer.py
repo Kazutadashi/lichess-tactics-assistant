@@ -1,7 +1,9 @@
 import json
 
 BASIC_MOTIFS = ['advancedPawn', 'attackingF2F7', 'capturingDefender', 'discoveredAttack', 'doubleCheck', 'exposedKing', 'fork', 'hangingPiece', 'kingsideAttack',
-                'pin', 'queensideAttack', 'sacrifice', 'skewer', 'trappedPiece'], 
+                'pin', 'queensideAttack', 'sacrifice', 'skewer', 'trappedPiece']
+
+ADVANCED_MOTIFS = ['attraction', 'clearance', 'defensiveMove', 'deflection', 'interference', 'intermezzo', 'quietMove', 'xRayAttack', 'zugzwang']
 
 def count_themes(filepath: str) -> dict:
     """Counts how many times a specific theme shows up in the entire list of puzzles. 
