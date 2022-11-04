@@ -155,5 +155,176 @@
         "short",
         "advantage",
         "fork"
+    ],
+    "tV0OU": [
+        "endgame",
+        "long",
+        "mateIn3"
+    ],
+    "v5kY5": [
+        "short",
+        "advantage",
+        "fork",
+        "opening"
+    ],
+    "h0Zdp": [
+        "advancedPawn",
+        "middlegame",
+        "short",
+        "advantage",
+        "fork"
+    ],
+    "UeOgs": [
+        "advancedPawn",
+        "middlegame",
+        "crushing",
+        "long",
+        "kingsideAttack"
+    ],
+    "0vGS7": [
+        "advantage",
+        "fork",
+        "long",
+        "opening"
+    ],
+    "oLqam": [
+        "exposedKing",
+        "veryLong",
+        "middlegame",
+        "crushing",
+        "fork"
+    ],
+    "XoJs0": [
+        "long",
+        "advantage",
+        "opening"
+    ],
+    "wn9nc": [
+        "deflection",
+        "short",
+        "masterVsMaster",
+        "crushing",
+        "kingsideAttack",
+        "master",
+        "middlegame"
+    ],
+    "QcilQ": [
+        "middlegame",
+        "short",
+        "advantage",
+        "kingsideAttack"
+    ],
+    "w3aBt": [
+        "middlegame",
+        "short",
+        "advantage",
+        "fork"
+    ],
+    "pIx3k": [
+        "mateIn2",
+        "middlegame",
+        "short"
+    ],
+    "EJ2Cj": [
+        "opening",
+        "short",
+        "advantage"
+    ],
+    "AMaqp": [
+        "endgame",
+        "short",
+        "advantage",
+        "fork"
+    ],
+    "AglgW": [
+        "endgame",
+        "short",
+        "crushing",
+        "intermezzo",
+        "hangingPiece"
+    ],
+    "UopDV": [
+        "middlegame",
+        "queensideAttack",
+        "advantage",
+        "long",
+        "discoveredAttack"
+    ],
+    "lkEdp": [
+        "endgame",
+        "short",
+        "advantage",
+        "fork",
+        "discoveredAttack"
+    ],
+    "zcEWM": [
+        "opening",
+        "advantage",
+        "short"
+    ],
+    "mGQc3": [
+        "deflection",
+        "mateIn2",
+        "middlegame",
+        "short",
+        "kingsideAttack"
+    ],
+    "fGvhV": [
+        "middlegame",
+        "long",
+        "mateIn3",
+        "backRankMate"
+    ],
+    "v8Jxv": [
+        "opening",
+        "crushing",
+        "long"
+    ],
+    "s7hgH": [
+        "middlegame",
+        "capturingDefender",
+        "advantage",
+        "short"
+    ],
+    "1hvGE": [
+        "endgame",
+        "short",
+        "crushing",
+        "fork"
+    ],
+    "3nJod": [
+        "middlegame",
+        "short",
+        "advantage"
+    ],
+    "kwqO7": [
+        "middlegame",
+        "crushing",
+        "long",
+        "kingsideAttack",
+        "discoveredAttack"
+    ],
+    "K65GV": [
+        "exposedKing",
+        "deflection",
+        "endgame",
+        "advancedPawn",
+        "crushing",
+        "fork",
+        "long",
+        "promotion",
+        "queenRookEndgame"
+    ],
+    "sqgeE": [
+        "middlegame",
+        "short",
+        "advantage"
+    ],
+    "F8ilB": [
+        "middlegame",
+        "crushing",
+        "long",
+        "kingsideAttack",
+        "discoveredAttack"
     ]
 }
