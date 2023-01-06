@@ -326,5 +326,262 @@
         "long",
         "kingsideAttack",
         "discoveredAttack"
+    ],
+    "7yZBt": [
+        "middlegame",
+        "crushing",
+        "short",
+        "attraction"
+    ],
+    "wf17x": [
+        "endgame",
+        "master",
+        "short",
+        "advantage",
+        "attraction"
+    ],
+    "Sa4p9": [
+        "middlegame",
+        "advantage",
+        "discoveredAttack",
+        "short"
+    ],
+    "dIPBR": [
+        "short",
+        "crushing",
+        "opening",
+        "kingsideAttack"
+    ],
+    "rHcrL": [
+        "mateIn2",
+        "middlegame",
+        "short"
+    ],
+    "lOa9y": [
+        "mateIn2",
+        "middlegame",
+        "short"
+    ],
+    "pMhSS": [
+        "advancedPawn",
+        "middlegame",
+        "short",
+        "advantage",
+        "discoveredAttack"
+    ],
+    "QZw56": [
+        "middlegame",
+        "advantage",
+        "trappedPiece",
+        "short"
+    ],
+    "M7Ury": [
+        "endgame",
+        "veryLong",
+        "crushing"
+    ],
+    "6kPmT": [
+        "clearance",
+        "middlegame",
+        "short",
+        "crushing",
+        "pin"
+    ],
+    "Q4RGa": [
+        "middlegame",
+        "short",
+        "advantage",
+        "intermezzo",
+        "capturingDefender"
+    ],
+    "mjGHh": [
+        "endgame",
+        "advantage",
+        "short"
+    ],
+    "5GEpp": [
+        "middlegame",
+        "short",
+        "crushing",
+        "discoveredAttack"
+    ],
+    "hCORf": [
+        "middlegame",
+        "advantage",
+        "short"
+    ],
+    "IZuuV": [
+        "mateIn2",
+        "middlegame",
+        "short",
+        "hangingPiece"
+    ],
+    "MDkhZ": [
+        "middlegame",
+        "short",
+        "advantage"
+    ],
+    "bBpDy": [
+        "middlegame",
+        "advantage",
+        "long",
+        "kingsideAttack"
+    ],
+    "VYYff": [
+        "endgame",
+        "advantage",
+        "attraction",
+        "long"
+    ],
+    "Wa1Pe": [
+        "short",
+        "endgame",
+        "mateIn2"
+    ],
+    "8Sn3n": [
+        "endgame",
+        "short",
+        "advantage",
+        "skewer"
+    ],
+    "J46YC": [
+        "endgame",
+        "capturingDefender",
+        "crushing",
+        "short"
+    ],
+    "epGSy": [
+        "middlegame",
+        "long",
+        "mateIn3",
+        "sacrifice"
+    ],
+    "BOYZH": [
+        "mateIn2",
+        "middlegame",
+        "short"
+    ],
+    "8hDFe": [
+        "exposedKing",
+        "veryLong",
+        "middlegame",
+        "advantage"
+    ],
+    "1m2fZ": [
+        "short",
+        "advantage",
+        "fork",
+        "master",
+        "middlegame"
+    ],
+    "uWUnb": [
+        "endgame",
+        "pin",
+        "short",
+        "advantage"
+    ],
+    "T3FJj": [
+        "middlegame",
+        "long",
+        "advantage"
+    ],
+    "L0tPL": [
+        "short",
+        "endgame",
+        "mateIn2"
+    ],
+    "hGwiJ": [
+        "endgame",
+        "crushing",
+        "long"
+    ],
+    "8HF2H": [
+        "middlegame",
+        "advantage",
+        "short"
+    ],
+    "6fH80": [
+        "advancedPawn",
+        "short",
+        "advantage",
+        "trappedPiece",
+        "opening"
+    ],
+    "eUHzA": [
+        "endgame",
+        "long",
+        "mateIn3"
+    ],
+    "CQFeF": [
+        "veryLong",
+        "middlegame",
+        "advantage",
+        "attraction",
+        "fork"
+    ],
+    "CZYI3": [
+        "endgame",
+        "master",
+        "crushing",
+        "long"
+    ],
+    "ut6HJ": [
+        "advantage",
+        "long",
+        "middlegame"
+    ],
+    "VxNey": [
+        "master",
+        "short",
+        "endgame",
+        "mateIn2"
+    ],
+    "xngGc": [
+        "endgame",
+        "clearance",
+        "short",
+        "advantage"
+    ],
+    "GPcBV": [
+        "middlegame",
+        "short",
+        "advantage"
+    ],
+    "hkMWl": [
+        "middlegame",
+        "advantage",
+        "short",
+        "discoveredAttack"
+    ],
+    "TwEL5": [
+        "short",
+        "advantage",
+        "fork",
+        "opening"
+    ],
+    "ghRSI": [
+        "middlegame",
+        "long",
+        "advantage",
+        "capturingDefender"
+    ],
+    "CW6hQ": [
+        "middlegame",
+        "short",
+        "crushing",
+        "kingsideAttack",
+        "discoveredAttack"
+    ],
+    "a8iHO": [
+        "middlegame",
+        "short",
+        "crushing",
+        "kingsideAttack",
+        "pin"
+    ],
+    "WpCAA": [
+        "endgame",
+        "short",
+        "advantage"
     ]
 }
