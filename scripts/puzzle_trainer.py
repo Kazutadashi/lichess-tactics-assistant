@@ -1,6 +1,7 @@
 import urllib.request
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
+import random
 
 # with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
 #     puzzle_links = [line.rstrip() for line in file]
@@ -30,6 +31,9 @@ def try_puzzle(puzzle_link):
         print("Puzzle was failed.")
         return False
 
-for puzzle in puzzle_links:
-    try_puzzle(puzzle)
+while len(puzzle_links) > 0:
+    random_list_index = random.randint(0, len(puzzle_links)-1)
+    current_puzzle = puzzle_links[random_list_index]
+    try_puzzle(current_puzzle)
     input("Press enter to continue to next puzzle.")
+    puzzle_links.pop(random_list_index)
