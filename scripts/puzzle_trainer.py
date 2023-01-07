@@ -2,7 +2,7 @@ import urllib.request
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import random
-
+import time
 # with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
 #     puzzle_links = [line.rstrip() for line in file]
 
@@ -25,15 +25,34 @@ def try_puzzle(puzzle_link):
     # checks to see if a completion message shows up, returns the first one it gets whether its a failure or a success.
     completion_status = driver.find_element_by_css_selector(".puzzle__feedback.fail, .complete")
     if completion_status.text == "Success!":
-        print("Puzzle was passed.")
         return True
     else:
-        print("Puzzle was failed.")
         return False
 
+numberCorrect = 0
+numberFailed = 0
+puzzlesAttempted = 0
+numberOfPuzzles = len(puzzle_links)
+
+start_time = time.time()
 while len(puzzle_links) > 0:
+    
     random_list_index = random.randint(0, len(puzzle_links)-1)
     current_puzzle = puzzle_links[random_list_index]
-    try_puzzle(current_puzzle)
+    puzzle_result = try_puzzle(current_puzzle)
+    
+    if puzzle_result == True:
+        numberCorrect+=1
+    else:
+        numberFailed+=1
+    puzzlesAttempted += 1
+    
+    print(f"[{puzzlesAttempted}/{numberOfPuzzles}] - {numberCorrect} Correct | {numberFailed} Failed.")
     input("Press enter to continue to next puzzle.")
+
     puzzle_links.pop(random_list_index)
+
+
+end_time = time.time()
+print(end_time - start_time)
+print(f"-----------------\nCycle finished.\n\nAccuracy: {numberCorrect/numberOfPuzzles*100}%, Time: {round((end_time - start_time))} seconds.")
