@@ -15,13 +15,13 @@ def get_puzzle(puzzle_link):
     else:
         return False
 
-# with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
-#     puzzle_links = [line.rstrip() for line in file]
+with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
+    puzzle_links = [line.rstrip() for line in file]
 
-puzzle_links = ["https://lichess.org/training/cxhfh",
-                "https://lichess.org/training/I8tZV",
-                "https://lichess.org/training/VQdq2",
-                "https://lichess.org/training/0a4R8"]
+# puzzle_links = ["https://lichess.org/training/cxhfh",
+#                 "https://lichess.org/training/I8tZV",
+#                 "https://lichess.org/training/VQdq2",
+#                 "https://lichess.org/training/0a4R8"]
 
 # enables caching
 options = Options()
