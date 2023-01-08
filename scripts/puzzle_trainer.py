@@ -15,13 +15,13 @@ def get_puzzle(puzzle_link):
     else:
         return False
 
-with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
-    puzzle_links = [line.rstrip() for line in file]
+# with open('lichess-tactics-assistant\data\puzzle_links.txt') as file:
+#     puzzle_links = [line.rstrip() for line in file]
 
-# puzzle_links = ["https://lichess.org/training/cxhfh",
-#                 "https://lichess.org/training/I8tZV",
-#                 "https://lichess.org/training/VQdq2",
-#                 "https://lichess.org/training/0a4R8"]
+puzzle_links = ["https://lichess.org/training/cxhfh",
+                "https://lichess.org/training/I8tZV",
+                "https://lichess.org/training/VQdq2",
+                "https://lichess.org/training/0a4R8"]
 
 # enables caching
 options = Options()
@@ -60,6 +60,10 @@ while len(puzzle_links) > 0:
 
 
 end_time = time.time()
-print(end_time - start_time)
-print(f"-----------------\nCycle finished.\n\nAccuracy: {numberCorrect/numberOfPuzzles*100}%, Time: {round((end_time - start_time))} seconds.")
+time_taken = end_time - start_time
+time_format = "%M:%S"
+print(time_taken)
+print(f"-----------------\nCycle finished.\n\nAccuracy: {round(numberCorrect/numberOfPuzzles*100, 2)}%, \
+    Time: {round((time_taken))} seconds. ({time.strftime(time_format, time.gmtime(time_taken))} minutes)")
+print(f"Goal time is 180 seconds. {time_taken-130} off goal.")
 driver.close()
